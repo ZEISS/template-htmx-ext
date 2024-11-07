@@ -7,6 +7,10 @@
 
 This is a template repository for creating HTMX extensions.
 
+## Getting Started
+
+Use this template to create a new repository for your HTMX extension.
+
 ## License
 
 [MIT](/LICENSE)
