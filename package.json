@@ -1,0 +1,35 @@
+{
+  "name": "@htmx/template-htmx-ext",
+  "main": "dist/index.js",
+  "description": "A template for htmx extensions",
+  "version": "0.0.0",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "lint": "eslint test/ext test",
+    "lint-fix": "eslint test/ext test --fix",
+    "format": "eslint --fix test/ext test",
+    "test": "mocha-chrome test/index.html"
+  },
+  "keywords": [
+    "htmx",
+    "extension"
+  ],
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeiss/template-htmx-ext.git"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "chai-dom": "^1.12.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-github": "^5.0.2",
+    "htmx.org": "^2.0.2",
+    "mocha": "10.1.0",
+    "mocha-chrome": "https://github.com/Telroshan/mocha-chrome",
+    "sinon": "^9.2.4"
+  },
+  "prettier": "@github/prettier-config"
+}

@@ -1,1 +1,5 @@
-# template-htmx-ext
+# HTMX Extensions Template
+
+## License
+
+[MIT](/LICENSE)
