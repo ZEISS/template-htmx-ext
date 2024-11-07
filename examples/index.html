@@ -5,12 +5,13 @@
     <title>Example</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://unpkg.com/htmx.org@2.0.3"></script>
+    <script src="https://unpkg.com/@htmx/template-htmx-ext@latest/example.js" defer></script>
 </head>
 
 <body>
     <h1>Example</h1>
     <p>This is an example page</p>
-    <button hx-get="/example" hx-ext="https://unpkg.com/@htmx/template-htmx-ext@latest/example.js">Load Example</button>
+    <button hx-get="/example" hx-ext="debug">Load Example</button>
     <div hx-target="#example" hx-swap="outerHTML"></div>
     <div id="example"></div>
     <script>
