@@ -16,7 +16,7 @@ jobs:
         node-version: 20
     - run: |
         npm install
-        npm build
+        npm run build
       env:
         CI: true
   test:
@@ -28,7 +28,7 @@ jobs:
         node-version: 20
     - run: |
         npm install
-        npm build
-        npm test
+        npm run build
+        npm run test
       env:
         CI: true
