@@ -23,7 +23,7 @@
     "url": "git+https://github.com/zeiss/template-htmx-ext.git"
   },
   "devDependencies": {
-    "chai": "^4.3.10",
+    "chai": "^5.1.2",
     "chai-dom": "^1.12.0",
     "eslint": "^9.20.0",
     "eslint-plugin-github": "^5.0.2",
