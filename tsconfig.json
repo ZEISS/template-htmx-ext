@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "es2020",
+        "target": "es2017",
+        "strict": true,
+        "declaration": false,
+        "outDir": "dist",
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "moduleResolution": "node",
+    },
+    "include": [
+        "./global.d.ts",
+        "src/**/*.ts"
+    ],
+    "files": [
+        "src/index.ts"
+    ]
+}
